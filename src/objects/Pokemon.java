@@ -79,15 +79,6 @@ public class Pokemon {
         this.evolutions.remove(evolution);
     }
 
-//    public String getTypesName(){
-//        String type= "";
-//        for(int i=0; i>this.getTypes().size()-1;i++){
-//            type = type + this.getTypes().get(i) +",";
-//        }
-//        type = type + this.getTypes().get(this.getTypes().size());
-//        return type;
-//    }
-
 
     @Override
     public String toString() {
